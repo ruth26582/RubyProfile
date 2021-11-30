@@ -1,0 +1,170 @@
+@keyframes move {
+  50% {
+    margin-left: 300px;
+  }
+}
+
+@keyframes squirrelmove {
+  50% {
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .goTopBtn img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .left-content {
+    margin-bottom: 5%;
+  }
+
+  .right-content {
+    margin: 0 1px 0 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  .left-content {
+    margin: 0;
+    margin-bottom: 5%;
+  }
+
+  .right-content {
+    margin: 0;
+  }
+}
+
+.right-content {
+  padding: 0;
+  margin-right: -3%;
+  margin-left: 3%;
+  /* padding-left: 3%; */
+  padding-right: 3%;
+  float: right;
+}
+
+body {
+  background-color: rgb(245, 206, 191);
+}
+
+.content {
+  margin-left: 20px;
+}
+
+.wrapper {
+  margin-top: 50px;
+}
+
+.fit-picture {
+  height: auto;
+  width: 100%;
+  position: relative;
+  /* width: 280px; */
+  /* border-style: solid; */
+  /* border-width: 1px; */
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.information {
+  background-color: rgba(255, 248, 220, 0.658);
+  height: 180px;
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+  /* border-style: solid; */
+  border-width: 1px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+h3 {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  animation-name: move;
+  animation-duration: 3s, 6s;
+}
+
+hr {
+  margin: 10px 30px;
+  background-color: black;
+  height: 1px;
+  border: none;
+}
+
+li {
+  list-style: none;
+  display: flex;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+a {
+  display: inline-block;
+  /* vertical-align: middle; */
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.text {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.icon-up-arrow {
+  width: 50px;
+  height: 50px;
+  /* margin-top: 10px;
+  margin-left: 10px; */
+}
+
+.goTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.goTopBtn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.content-style {
+  margin: 0px 30px 50px 30px;
+}
+
+.content-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-content {
+  background-color: rgba(255, 248, 220, 0.658);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.squirrel-chestnut img {
+  width: 30px;
+  height: 30px;
+}
+
+.squirrel {
+  float: right;
+  animation-name: squirrelmove;
+  animation-duration: 3s, 6s;
+  animation-iteration-count: infinite;
+}
