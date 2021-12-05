@@ -168,3 +168,7 @@ a {
   animation-duration: 3s, 6s;
   animation-iteration-count: infinite;
 }
+
+table {
+  border: 1px solid black;
+}
